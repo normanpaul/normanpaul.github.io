@@ -1,0 +1,204 @@
+body {
+	background:#e6e6e6;
+}
+
+
+header {
+	width:90%;
+	max-width:100px;
+	margin:auto;
+}
+ 
+nav {
+	background:#528fd5;
+	margin-top:20px;
+	position: relative;
+}
+ 
+nav ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+ 
+nav > ul > li {
+	float:left;
+}
+ 
+nav ul li a {
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	padding:20px 30px;
+}
+ 
+nav ul li a:hover {
+	background:#3669a3;
+}
+ 
+nav > ul > li:hover div {
+	display:table;
+}
+ 
+/*Submenu*/
+nav ul li div {
+	width:1000px;
+	position: absolute;
+	left:0;
+	background:#ccc;
+	box-sizing:border-box;
+	display:none;
+}
+ 
+nav ul li div ul{
+	width:20%;
+	display:table-cell;
+	border-right:1px solid rgba(255,255,255,.5);
+	box-sizing:border-box;
+}
+ 
+nav ul li div ul:last-child {
+	border:none;
+}
+ 
+nav ul li div ul .titulo {
+	background:#000;
+	color:#fff;
+}
+ 
+nav ul li div ul .titulo a {
+	color:#fff;
+	padding:10px 20px;
+}
+ 
+.titulo.azul {background:#3498db;}
+.titulo.verde{background:#27ae60;}
+.titulo.naranja {background:#e67e22;}
+.titulo.rojo {background:#c0392b; color:#000;}
+ 
+nav ul li div ul .titulo a:hover {
+	background:none;
+}
+ 
+nav ul li div ul li a {
+	color:#000;
+}
+ 
+nav ul li div ul li a:hover {
+	color:#fff;
+}
+
+
+/*cuerpo rutas*/
+.cuerporec{
+   margin-top: 0px;
+   margin-right: 0pt;
+   margin-bottom: 10px;
+   margin-left: 0pt;
+}
+
+.cuerporec ul{
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   padding-top: 0pt;
+   padding-right: 900pt;
+   padding-bottom: 0pt;
+   padding-left: 0px;
+   list-style-type: none;
+   list-style-image: none;
+   list-style-position: outside;
+}
+
+.cuerporec li{
+   border-bottom: 10px solid #d7d7d7;   
+   border-left: 1px solid #d7d7d7;   
+   border-right: 1px solid #d7d7d7;   
+   padding: 10px 0 20px 40px;
+   font-size: 12pt;
+   margin-top: 0px;
+   margin-right: 0pt;
+   margin-bottom: 0px;
+   margin-left: 0pt;
+   background-color: #528fd5;
+}
+
+.cuerporec a{
+	text-align: center;
+    color: white;
+}
+
+/*CONTACTO: FORMULARIO*/
+.formulario{
+	position: absolute;
+	z-index: -1;
+	padding: 50px 0 40px 40px;
+
+}
+
+/*INICIO. "DISEÑO" */
+.dise{
+
+}
+
+.contacto p img{
+  z-index: -1;
+  position: absolute;
+  top:  80px; 
+  left: 550px;
+}
+
+
+/*INICIA CARRUSEL.*/
+
+
+
+.css-carrusel{
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.css-carrusel .css-img{
+    top: 80px;
+    z-index: -1;
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    max-width: 90%;
+    max-height:90%;
+    position: absolute;
+    opacity:0;
+    -webkit-animation-name: css-animation-fade;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+
+.css-carrusel .css-img:nth-child(2){
+    -webkit-animation-delay: 5s;
+}
+.css-carrusel .css-img:nth-child(3){
+    -webkit-animation-delay: 10s;
+}
+.css-carrusel .css-img:nth-child(4){
+    -webkit-animation-delay: 15s;
+}
+.css-carrusel .css-img:nth-child(5){
+    -webkit-animation-delay: 20s;
+}
+.css-carrusel .css-img:nth-child(6){
+    -webkit-animation-delay: 25s;
+}
+
+@-webkit-keyframes css-animation-fade{
+    from { opacity:0;}
+    5% { opacity: 1;}
+    15%{ opacity: 1;}
+    20%{opacity: 0;}
+    to { opacity: 0;}
+}
+/*TERMINA CARRUSEL*/
+
