@@ -1,0 +1,31 @@
+hr{
+	margin-top: 0px;
+}
+
+.noround{
+	border-radius: 0;
+}
+
+.margenb{
+	margin-bottom: 0.1%;
+}
+
+.nopadding{
+	padding: 0px;
+}
+
+.nomargen{
+	margin: 0px;
+}
+
+.margen1p{
+	margin:5%; 
+}
+
+.margentop{
+	margin-top: 3%;
+}
+
+.margen0{
+	margin: 0;
+}
